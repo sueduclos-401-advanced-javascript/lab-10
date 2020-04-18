@@ -1,0 +1,35 @@
+{
+  "name": "lab-10",
+  "version": "1.0.0",
+  "description": "## Project Name - Code 401 Lab 10 - Authentication",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sueduclos-401-advanced-javascript/lab-10.git"
+  },
+  "author": "Sue Duclos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sueduclos-401-advanced-javascript/lab-10/issues"
+  },
+  "homepage": "https://github.com/sueduclos-401-advanced-javascript/lab-10#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-swagger-generator": "^1.1.17",
+    "mongoose": "^5.9.9",
+    "morgan": "^1.10.0"
+  }
+}
